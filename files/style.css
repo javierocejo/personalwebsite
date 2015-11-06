@@ -100,12 +100,12 @@ h6 {
 }
 p {
   margin-bottom: 20px;
-  color: #222222;
+  color: #555555;
   text-align: center;
   transition: all 1s ease;
 }
 p:hover {
-  color: #555555;
+  color: #222222;
 }
 .button {
   display: inline-block;
@@ -133,7 +133,12 @@ p:hover {
   background-color: #ede9ce;
   background-position: 50% 50%;
   background-image: url(../files/image/45-degree-fabric-dark.png);
+  transition: all 1s ease;
 }
+.full-widh-bg.story:hover {
+	background-color: #FDE9CE;
+	}
+
 .img {
   position: static;
   left: 0px;
@@ -361,7 +366,14 @@ p:hover {
   	text-align: center;
   	background-color: #222222;
   	background-image: url(../files/image/arches.png);
+  	transition: all 1s ease;
+
  }
+  .contact:hover {
+  	background-color: #111111;
+
+
+  }
 
 .info {
   position: absolute;
@@ -389,7 +401,12 @@ p:hover {
   padding-bottom: 80px;
   text-align: center;
   background-image: url(../files/image/back-pattern.png);
-}
+  transition: all 1s ease;
+ }
+
+ .portfolio:hover {
+  	background-color: #dddddd;
+  }
 .recent {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -399,8 +416,12 @@ p:hover {
 
   background-color: #EDE9CE;
   background-image: url(../files/image/45-degree-fabric-dark.png);
+  transition: all 1s ease;
 
+}
 
+.recent:hover {
+	background-color: #FDE9CE;
 }
 .portfolio.contact {
   margin-bottom: 15px;
@@ -416,7 +437,12 @@ p:hover {
   padding-top: 80px;
   padding-bottom: 80px;
   background-image: url(../files/image/back-pattern.png);
-}
+  transition: all 1s ease;
+ }
+
+ .last-work:hover {
+  	background-color: #dddddd;
+  }
 .icon-text {
   margin-top: 20px;
   margin-bottom: 30px;
